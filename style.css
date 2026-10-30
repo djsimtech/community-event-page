@@ -44,6 +44,23 @@ main > p {
   color: #b5651d;
 }
 
+.rsvp a {
+  color: #b5651d;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.rsvp a:hover {
+  color: #5a3a22;
+}
+
+.rsvp a:focus-visible {
+  outline: 3px solid #5a3a22;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 .visit-info {
   margin-top: 2.5rem;
 }
