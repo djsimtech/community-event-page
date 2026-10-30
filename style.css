@@ -1,0 +1,45 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #f6f1e7;
+  color: #2b2118;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(2rem, 6vw, 3rem);
+  line-height: 1.15;
+  color: #5a3a22;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+main > p {
+  font-size: 1.15rem;
+}
+
+.event-details {
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  background: #fffaf2;
+  border-left: 6px solid #b5651d;
+  border-radius: 6px;
+}
+
+.event-details h2 {
+  margin-top: 0;
+}
+
+.event-details p {
+  margin: 0.4rem 0;
+}
+
+.event-details strong {
+  color: #b5651d;
+}
