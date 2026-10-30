@@ -161,11 +161,10 @@ main > p {
       "visit   agenda";
     column-gap: 3rem;
   }
-
   main > h1            { grid-area: title; }
   main > p:first-of-type { grid-area: intro; max-width: 45rem; }
   .event-details       { grid-area: details; }
   .rsvp                { grid-area: rsvp; }
-  .visit-info          { grid-area: visit; align-self: start; }
+  .visit-info          { grid-area: visit; align-self: start; margin-top: 1.5rem; }
   .agenda              { grid-area: agenda; margin-top: 2rem; align-self: start; }
 }
