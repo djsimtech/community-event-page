@@ -43,3 +43,36 @@ main > p {
 .event-details strong {
   color: #b5651d;
 }
+
+.agenda {
+  margin-top: 2.5rem;
+}
+
+.agenda h2 {
+  color: #5a3a22;
+  margin-bottom: 0.75rem;
+}
+
+.agenda ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.agenda li {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e3d6c3;
+}
+
+.agenda li:last-child {
+  border-bottom: none;
+}
+
+.agenda time {
+  font-weight: 600;
+  color: #b5651d;
+  white-space: nowrap;
+}
