@@ -44,6 +44,34 @@ main > p {
   color: #b5651d;
 }
 
+.visit-info {
+  margin-top: 2.5rem;
+}
+
+.visit-info h2 {
+  color: #5a3a22;
+  margin-bottom: 0.75rem;
+}
+
+.visit-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.visit-info li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #e3d6c3;
+}
+
+.visit-info li:last-child {
+  border-bottom: none;
+}
+
+.visit-info strong {
+  color: #b5651d;
+}
+
 .agenda {
   margin-top: 2.5rem;
 }
